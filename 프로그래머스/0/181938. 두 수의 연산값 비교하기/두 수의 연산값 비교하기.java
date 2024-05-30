@@ -1,7 +1,7 @@
 class Solution {
     public int solution(int a, int b) {
         int answer = 0;
-        String result = Integer.toString(a) + Integer.toString(b);
+        String result = String.valueOf(a) + String.valueOf(b);
         int resultInt = Integer.parseInt(result);
         
         if(resultInt > 2 * a * b) {
